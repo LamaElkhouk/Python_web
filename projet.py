@@ -284,12 +284,12 @@ qu'ils aient de bonne notes ou pas , il y'a des etudiant qui souffre crise de pa
 
 """)
 
+
 st.write("matrice et heatmap")
 code=''' 
 matrice=df.corr()
 matrice'''
 st.code(code, language='python')
-
 
 matrice=df.corr()
 st.write(matrice)
