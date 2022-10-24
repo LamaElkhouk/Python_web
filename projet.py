@@ -294,6 +294,7 @@ st.code(code, language='python')
 matrice=df.corr()
 st.write(matrice)
 
+
 code='''
 plt.figure(figsize=(15,6))
 sb.heatmap(matrice, annot=True)'''
